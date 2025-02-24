@@ -1,4 +1,4 @@
-## OTDJ API Server Prototype (FastAPI)
+## XPF API Server Prototype (FastAPI)
 API 서버 프로토타입
 
 ### 스택
