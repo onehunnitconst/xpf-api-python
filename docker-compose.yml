@@ -4,17 +4,17 @@ services:
   sql:
     image: postgres:16.3
     ports:
-      - 15500:5432
+      - 15550:5432
     environment:
       POSTGRES_USER: sangsu
       POSTGRES_PASSWORD: sangsu
-      POSTGRES_DB: otdj
+      POSTGRES_DB: xpf
       PGDATA: /var/lib/postgresql/data/pgdata
     volumes:
-      - ~/otdj-pg:/var/lib/postgresql/data
+      - ~/xpf-pg:/var/lib/postgresql/data
   redis:
     image: redis/redis-stack-server:latest
     ports:
-      - 16500:6379
+      - 16550:6379
     volumes:
-      - ~/otdj-redis:/data
+      - ~/xpf-redis:/data
